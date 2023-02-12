@@ -408,29 +408,26 @@ body {
   display: flex;
   align-items: center;
 }
-.subscription{
+.subscription {
   margin-left: 80px;
   width: 100%;
-  
 }
 
-.subscription .title{
+.subscription .title {
   display: inline-block;
   width: 100%;
 }
+
 .subscription-field {
   display: flex;
 }
 
-.input-wrapper:focus-within .input {
-  border: 1px solid var(--primary-color);
-}
-.btn-subscription{
+.btn-subscription {
   display: flex;
-    align-items: center;
-    padding: 8px 24px;
+  align-items: center;
+  padding: 8px 24px;
   color: var(--white-color);
-  background: #4D5AE5;
+  background: #4d5ae5;
   border-radius: 4px;
 }
 
@@ -442,7 +439,7 @@ body {
   line-height: 200%;
   letter-spacing: 0.04em;
 
-  color:var(--accent-color);
+  color: var(--accent-color);
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
@@ -450,14 +447,12 @@ body {
   transition: border 250ms var(--anim-timing);
 }
 
-.input-wrapper{
+.input-wrapper {
   margin-right: 24px;
   width: 100%;
-
-  
 }
 
-.btn-subscription .icon{
+.btn-subscription .icon {
   margin-left: 16px;
 }
 
@@ -467,6 +462,7 @@ body {
   line-height: 200%;
   letter-spacing: 0.04em;
 }
+
 .container {
   width: 1158px;
   margin-left: auto;
@@ -711,7 +707,8 @@ body {
   color: var(--primary-color);
 }
 
-.modal-form .field:focus-within .input {
+.modal-form .field:focus-within .input,
+.input-wrapper:focus-within .input {
   border: 1px solid var(--primary-color);
 }
 
